@@ -1,0 +1,21 @@
+# Top 3 US search engine User-agents:
+
+User-agent: Googlebot
+Disallow: /
+User-agent: Yahoo! Slurp
+Disallow: /
+User-agent: bingbot
+Disallow: /
+
+# Common search engine User-agents blocked:
+
+User-agent: AhrefsBot
+Disallow: /
+User-agent: Ezooms
+Disallow: /
+User-agent: YandexBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: Baiduspider
+Disallow: /

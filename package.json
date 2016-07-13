@@ -1,0 +1,30 @@
+{
+  "name": "ddos_attack_simulation",
+  "version": "1.0.0",
+  "description": "A simple express server that will be attacked by a scraper",
+  "main": "ddos_attack_demo_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasmelendi/web-scraping.git"
+  },
+  "keywords": [
+    "scraping",
+    "scraper",
+    "python",
+    "nodejs"
+  ],
+  "author": "Matias Melendi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasmelendi/web-scraping/issues"
+  },
+  "homepage": "https://github.com/matiasmelendi/web-scraping#readme",
+  "devDependencies": {
+    "loadtest": "1.4.3",
+    "express": "4.14.0",
+    "express-ipfilter": "0.0.25"
+  }
+}
