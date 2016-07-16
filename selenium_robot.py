@@ -2,6 +2,7 @@ from urllib2 import urlopen
 from bs4 import BeautifulSoup
 from contextlib import closing
 from selenium.webdriver import Chrome
+import time
 
 class Scraper():
 	documento = None
@@ -15,14 +16,16 @@ class Scraper():
 			password_field = browser.find_element_by_id("usuario_password")
 			password_field.send_keys("password")
 			browser.find_element_by_name("commit").click()
-
+			
+			time.sleep(5)
+			
 			self.documento = BeautifulSoup(browser.page_source.encode('utf-8'), 'html.parser')
 
 		return self
 
 	def exportar_a_html_los_datos_extraidos(self):
-		datos_extraidos = open("defensa_usando_javascript.html", "w+")
-		datos_extraidos.write(self.documento.prettify())
+		datos_extraidos = open("datos_extraidos_por_selenium_robot.html", "w+")
+		datos_extraidos.write(self.documento.prettify('utf-8'))
 
 ## Do the scraping
 

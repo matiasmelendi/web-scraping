@@ -22,4 +22,4 @@ class CharizardScraper():
 			for scraper in self.scrapers: scraper.start()
 
 
-CharizardScraper().crear_scrapers(10).iniciar_scraping()
+CharizardScraper().crear_scrapers(10000).iniciar_scraping()

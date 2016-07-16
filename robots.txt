@@ -19,3 +19,13 @@ User-agent: MJ12bot
 Disallow: /
 User-agent: Baiduspider
 Disallow: /
+
+# Allow all robots
+
+User-agent: *
+Disallow: 
+
+# Disallow specific folders
+
+User-agent: Googlebot
+Disallow: /my_secret_folder (if you know what I mean)
