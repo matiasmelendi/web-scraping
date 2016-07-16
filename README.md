@@ -10,10 +10,6 @@ If you don't have pip installed, follow the instructions on this link: https://p
 
 ## Running the examples
 
-### Defense against scraping using javascript
-
-`python javascript_shield_against_robots.py`
-
 ### Defense against scraping bots blacklisting ips
 
 `nodejs server.js`
@@ -32,3 +28,7 @@ Scrapers are faster than humans reading a web page content, if we run a lot of s
 ### Inofensive scraping
 
 `python skyscraper.py` 
+
+### Scraping sites using javascript
+
+`python selenium_robot.py`
